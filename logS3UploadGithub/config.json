@@ -1,0 +1,16 @@
+{
+  "appName": "applicationName",
+  "intervalUnit" : "s",
+  "uploadInterval": 30,
+  "deleteContentAfterUpload": false,
+  "logPaths": {
+    "access": "/path/to/access.log",
+    "error": "/path/to/error.log"
+  },
+  "aws": {
+    "access": "awsAccess",
+    "secret": "awsSecret",
+    "bucketName": "s3BucketName",
+    "region": "us-east-1"
+  }
+}
